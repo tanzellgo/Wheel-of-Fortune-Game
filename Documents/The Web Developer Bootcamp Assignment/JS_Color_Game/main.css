@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+.head{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25vh;
+    background: rgb(65,105,225);   
+}
+
+.numerical_display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.numerical_display h3{
+    margin: 0;
+    font-weight: 200;
+}
+
+.numerical_display p{
+    font-size: 2.7rem;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+    background: white;
+}
+
+nav button{
+    align-self: stretch;
+    border: 0;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(65,105,225);
+}
+
+nav button:active{
+    background: rgb(65,105,225);
+    color: white;
+}
+
+nav button:focus{
+    outline:0;
+}
+
+.msg{
+    width: 20%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.difficulty{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.bodey{
+    height: 75vh; 
+    background: black;
+}
+
+.square_grp{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 65%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.square_grp button:focus{
+    outline:0;
+}
+
+.square1,
+.square2,
+.square3,
+.square4,
+.square5,
+.square6{
+    width: 30%;
+    height: 126.39px;
+    margin: 7px;
+    border-radius: 20px;
+}
+
+
